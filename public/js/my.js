@@ -1,6 +1,6 @@
 // const { response } = require("express")
 
-// console.log("the backend js is loaded")
+console.log("the backend js is loaded")
 // fetch('http://localhost:3000/weather?address=Patna').then((response)=>{
 // response.json().then((data)=>{
 //     if(data.error){
