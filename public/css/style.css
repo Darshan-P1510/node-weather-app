@@ -1,0 +1,26 @@
+header{
+    margin-top: 16px;
+    margin-bottom: 48px;
+}
+body{
+    color: #333333;
+    font-family: Arial;
+    max-width: 650px;
+    padding: 0 16px;
+    margin:0 auto;
+}
+h1{
+    margin-bottom: 16px;
+    font-size: 32px;
+}
+ a{
+    color: #174380;
+    font-size: 22px;
+    margin-right: 16px;
+}
+footer{
+    background: color #888888;;
+    padding: 16px 0;
+    margin-top: 16px;
+    border-top: 1px solid #eeeeee;
+}

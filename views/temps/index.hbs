@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BASE</title>
+    <link rel="icon" href="/css/download.png">
+     <link rel="stylesheet" href="/css/style.css">
+     
+</head>
+<body>
+    {{>headers}}
+    <h1>{{title}}</h1>
+    <div>created by {{name}}</div>
+    <form>
+        <input placeholder="Location">
+        <button>Search</button>
+    </form>
+    <p id="m-1"></p>
+    <p id="m-2"></p>
+    <p id="m-3"></p>
+    {{>footers}}
+    <script src="/js/my.js"></script>
+</body>
+</html>
