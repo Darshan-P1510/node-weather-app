@@ -24,3 +24,11 @@ footer{
     margin-top: 16px;
     border-top: 1px solid #eeeeee;
 }
+button{
+    background: #174380;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    font-size: 16px;
+    cursor: pointer;
+}

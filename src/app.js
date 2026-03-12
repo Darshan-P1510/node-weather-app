@@ -21,13 +21,13 @@ app.use(express.static(publicdir))
 app.get('',(req,res)=>{
     res.render('index',{
         title:'weather app',
-        name:'kranh'
+        name:'Darshan'
     })
 })
 app.get('/help',(req,res)=>{
     res.render('help',{
-        title:'jugaadu',
-        age:12})
+        name:'KAMLESH',
+        title:'about the page info'})
 })
 app.get('/about',(req,res)=>{
     res.render('about',{
