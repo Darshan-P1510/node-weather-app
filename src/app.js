@@ -7,7 +7,7 @@ const app= express()
 const publicdir=path.join(__dirname,'../public')
 const partialpath=path.join(__dirname,'../views/partials')
 const temppath=path.join(__dirname,'../views/temps')
-
+const port=process.env.PORT || 3000
 const{ geocode, weather }=require('./util')
 //define path for express config
 app.set('views', temppath);
@@ -85,6 +85,6 @@ app.get(/help\/.+/, (req, res) => {
 app.use((req,res)=>{
     res.status(404).render('404',{title:'404 NOT FOUND'})
 })
-app.listen(3000,()=>{
-    console.log("you are server is running on port 3000")
+app.listen(port,()=>{
+    console.log("you are server is running on port ",+port)
 })
